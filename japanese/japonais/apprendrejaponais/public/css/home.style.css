@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* ______________ [PARTIE : BARRE DE NAVIGATION] */
+
+nav {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  background-color: #7282b55e;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  display: flex;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  justify-content: center;
+}
+
+ul li a,
+#name-site {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0.1rem;
+}
+
+#name-site {
+  color: #1e4c6f;
+}
+
+#box-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0.5rem;
+  padding: 0;
+}
+
+#box-logo #logo,
+#img-profil {
+  max-width: 60px;
+  max-height: 60px;
+  margin-left: 0.5rem;
+}
+
+#img-profil {
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px 1px #7282b5;
+  margin-right: 0.5rem;
+}
+
+#name-user {
+  color: #7282b5;
+  background-color: #ffffff;
+}
+
+#btn-dc {
+  text-transform: capitalize;
+  color: #8e4821;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+#box-profil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul li a:hover, #btn-dc:hover, #name-user:hover {
+  transform: translateX(-7%);
+  text-decoration: underline;
+  transition: 1s;
+  color: #7282b5;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.seo {
+  font-weight: 700;
+  color: white;
+}
+
+.box-log, a, li {
+  list-style: none;
+  text-decoration: none;
+  color: #8e4821;
+}
+
+.box-log a:hover {
+  color: #ffffff;
+  transition: 1s;
+  text-decoration: underline;
+}
+/* FIN !!! [PARTIE : BARRE DE NAVIGATION] ______________ */
+
+
+/* ______________ [PARTIE : ZONE DE FLOATAISON]  */
+#container figure,
+img {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+#float-text {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  background-color: #ffffff00;
+  position: relative;
+  margin: auto;
+  margin: -30% auto 20% auto;
+  text-align: center;
+  color: white;
+}
+
+#float-text h1 {
+  background-color: white;
+  color: #7282b5;
+  box-shadow: 3px 2px 3px 3px #7282b5;
+}
+
+#float-text p {
+  color: rgb(94, 93, 93);
+  margin:0.5rem auto;
+  padding: 0.5rem;
+  box-shadow: 3px 2px 3px 3px #874398;
+}
+
+#float-text p:nth-child(2n) {
+  width: 80%;
+  background-color: #feac38;
+}
+
+#float-text p:nth-child(3n) {
+  width: 50%;
+  background-color: #feac38;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(119, 119, 119);
+  transform: rotate(45deg);
+}
+
+footer img:hover {
+  transition: 0.5s;
+  transform: rotate(0deg);
+  border-radius: 10px;
+}
+/*  FIN !!! [PARTIE : ZONE DE FLOATAISON] ______________ */
